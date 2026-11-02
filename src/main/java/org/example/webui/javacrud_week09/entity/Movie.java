@@ -48,4 +48,28 @@ public class Movie {
     public void setRating(Double rating) {
         this.rating = rating;
     }
+
+    public long getId() {
+        return id;
+    }
+
+    public String getTitle() {
+        return title;
+    }
+
+    public String getDirector() {
+        return director;
+    }
+
+    public String getGenre() {
+        return genre;
+    }
+
+    public Integer getReleaseYear() {
+        return releaseYear;
+    }
+
+    public Double getRating() {
+        return rating;
+    }
 }
